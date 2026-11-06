@@ -1,0 +1,22 @@
+# Build outputs / binaries
+engine/test_engine
+engine/eval
+engine/cli
+engine/*.dylib
+engine/*.o
+**/.cxx/
+**/build/
+scripts/out/
+
+# Personal data: never commit chats or trained models
+_chat*.txt
+*.bin
+personal_model*
+web/*.bin
+
+# Local / IDE
+.DS_Store
+.idea/
+*.iml
+local.properties
+__pycache__/
